@@ -189,6 +189,8 @@ python ./src/dataset_organization/solo_to_coco.py -i INPUT_SOLO_DIR -o OUTPUT_CO
 ## Detectron2
 We provide a set of basic tools to train and test Detectron2.
 
+### Testing Set
+We Provide Users in Wheelchairs, a dataset of 2,461 images of humans in wheelchairs. A sample of the dataset is found [here](https://drive.google.com/file/d/1-TpDAAtVUAZ3hY0W1URaTRfMtA3fhnaU/view?usp=sharing). We collect our data from YouTube under fair use. Learn more [here](https://support.google.com/youtube/answer/9783148?hl=en).
 
 ### Training Detectron2
 ```
