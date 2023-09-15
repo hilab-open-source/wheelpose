@@ -61,7 +61,7 @@ A brief description of domain randomization parameters follows:
 
 **BackgroundObjectPlacementRandomizer.** Randomly spawns background and occluder objects within a user-defined 3D volume. Separation distance can be set to dictate the proximity of objects from each other. Poisson-Disk sampling is used to randomly place objects sourced from a set of primitive 3D game objects (cubes, cylinders, spheres, etc.) from Unity Perception in a given area.
 
-**BackgroundOccluderScaleRandomizer*. Randomizes the scale of the background and occluder objects.
+**BackgroundOccluderScaleRandomizer**. Randomizes the scale of the background and occluder objects.
 
 **RotationRandomizer.** Randomizes the 3D rotation of background and occluder objects.
 
