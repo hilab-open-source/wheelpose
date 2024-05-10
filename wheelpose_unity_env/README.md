@@ -6,7 +6,7 @@ This repository provides the WheelPose Unity environment built in HDRP as an ext
 - 100 HumanML3D converted animations.
 - 100 HumanML3D converted animations with increased wheelchair-human clipping.
 - 100 Text-to-Motion converted animations.
-- 90 Text-to-Motion human-in-the-loop filtered animations.
+- 90 Text-to-Motion human-evaluation filtered animations.
 - 4 Unity-branded assets with different clothing colour but the same appearance.
 - 529 Unity groceries textures.
 
