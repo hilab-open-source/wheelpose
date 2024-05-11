@@ -1,6 +1,6 @@
 # WheelPose: Data Synthesis Techniques to Improve Pose Tracking Performance on Wheelchair Users
 
-### [[Project Page]](<LINK>) [[arXiv]](https://arxiv.org/abs/2404.17063) [[Users in Wheelchairs (UIC) Dataset]](https://drive.google.com/file/d/1ht-mbDtSf6yedbbRlvtR3b9RxzV2mKGC/view?usp=sharing)
+### [[Project Page]](<LINK>) [[arXiv]](https://arxiv.org/abs/2404.17063) [[Users in Wheelchairs (UIW) Dataset]](https://drive.google.com/file/d/1ht-mbDtSf6yedbbRlvtR3b9RxzV2mKGC/view?usp=sharing)
 
 ![Teaser Image](./docs/example_synthetic_data.png)
 
@@ -17,7 +17,7 @@
   - Preset naïve ranges for the domain randomization.
 - We provide a set of tools for data analysis and cleaning.
 - We provide a fast annotator tool for the collection of individual frames from YouTube videos.
-- We provide a new ground truth dataset titled Users in Wheelchairs (UIC) consisting of 2,464 RGB images of users in wheelchairs collected from 84 publicly available videos in 16 different action classes with fully labeled bounding boxes and keypoint locations.
+- We provide a new ground truth dataset titled Users in Wheelchairs (UIW) consisting of 2,464 RGB images of users in wheelchairs collected from 84 publicly available videos in 16 different action classes with fully labeled bounding boxes and keypoint locations.
 - We provide a training methodology and framework for [Detectron2](https://github.com/facebookresearch/detectron2) and found noticeable improvements in bounding box and keypoint performance when using WheelPose and testing on real wheelchair users compared to ImageNet.
 
 We provide all relevant code within this repo.
