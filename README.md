@@ -1,6 +1,6 @@
 # WheelPose: Data Synthesis Techniques to Improve Pose Tracking Performance on Wheelchair Users
 
-### [[Project Page]](<LINK>) [[arXiv]](https://arxiv.org/abs/2404.17063) [[Users in Wheelchairs (UIW) Dataset]](https://drive.google.com/file/d/1ht-mbDtSf6yedbbRlvtR3b9RxzV2mKGC/view?usp=sharing)
+### [[Project Page]](https://hilab-open-source.github.io/wheelpose/) [[DOI]](https://dl.acm.org/doi/10.1145/3613904.3642555) [[arXiv]](https://arxiv.org/abs/2404.17063) [[Users in Wheelchairs (UIW) Dataset]](https://drive.google.com/file/d/1ht-mbDtSf6yedbbRlvtR3b9RxzV2mKGC/view?usp=sharing)
 
 ![Teaser Image](./docs/example_synthetic_data.png)
 
@@ -206,5 +206,25 @@ We compute a set of custom keypoint metrics including PDJ, PDJPE, OKS50, OKS75, 
 CUDA_VISIBLE_DEVICES=SELECTED_CUDA_GPU python src/detectron2_scripts/validation_metrics.py -i GENERATED_DIR_FROM_TRAINING -tjp TESTING_JSON -tdp TESTING_IMAGE_DIR -ni N_IMAGES_TO_VISUALIZE
 ```
 
+# Citing
+If extending or using our work, please cite our corresponding paper found in the [DOI](https://dl.acm.org/doi/10.1145/3613904.3642555). The BibTex is as follows.
+```
+@inproceedings{10.1145/3613904.3642555,
+  author = {Huang, William and Ghahremani, Sam and Pei, Siyou and Zhang, Yang},
+  title = {WheelPose: Data Synthesis Techniques to Improve Pose Estimation Performance on Wheelchair Users},
+  year = {2024},
+  isbn = {9798400703300},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3613904.3642555},
+  doi = {10.1145/3613904.3642555},
+  booktitle = {Proceedings of the CHI Conference on Human Factors in Computing Systems},
+  articleno = {944},
+  numpages = {25},
+  keywords = {Accessibility, Data Synthesis, Pose Estimation, Wheelchair Users},
+  location = {<conf-loc>, <city>Honolulu</city>, <state>HI</state>, <country>USA</country>, </conf-loc>},
+  series = {CHI '24}
+}
+```
 ## License
 WheelPose is licensed under the MIT License. See [LICENSE](LICENSE) for the full license information.
